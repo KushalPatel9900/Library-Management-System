@@ -309,7 +309,7 @@ public class Login extends javax.swing.JFrame {
         {  
             Class.forName("com.mysql.cj.jdbc.Driver");  
             con=DriverManager.getConnection(  
-            "jdbc:mysql://localhost:3306/lib_javaf","root","1357924680");  
+            "jdbc:mysql://localhost:3306/lib_javaf","YOUR_USERNAME","PASSWORD");  
             stm=con.createStatement(); 
         }
         catch(Exception e)
